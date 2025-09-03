@@ -10,9 +10,9 @@
 
   <!-- Header -->
   <header class="bg-green-700 text-white shadow-md">
-    <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
-      <h1 class="text-2xl font-bold tracking-wide">UnionXpert</h1>
-      <nav class="space-x-6 text-lg">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold tracking-wide mb-2 md:mb-0">UnionXpert</h1>
+      <nav class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-lg">
         <a href="#mission" class="hover:text-yellow-300">আমাদের উদ্দেশ্য</a>
         <a href="#programs" class="hover:text-yellow-300">কার্যক্রম</a>
         <a href="#coursefee" class="hover:text-yellow-300">Course Fee প্রদান করুন</a>
@@ -25,94 +25,94 @@
   <!-- Hero Section -->
   <section class="relative bg-green-600 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center opacity-40"></div>
-    <div class="relative z-10 flex flex-col items-center justify-center text-center py-32 px-6">
-      <h2 class="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg">ঐক্য • প্রশিক্ষণ • বিজয়</h2>
-      <p class="text-lg md:text-xl max-w-3xl mb-8">
+    <div class="relative z-10 flex flex-col items-center justify-center text-center py-24 md:py-32 px-6">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 md:mb-6 drop-shadow-lg">ঐক্য • প্রশিক্ষণ • বিজয়</h2>
+      <p class="text-base sm:text-lg md:text-xl max-w-3xl mb-6 md:mb-8">
         UnionXpert একটি সংগঠন, যার উদ্দেশ্য প্রার্থীর সহযোগীদের প্রশিক্ষণ দিয়ে নির্বাচনী সাফল্য নিশ্চিত করা।
       </p>
-      <button class="bg-yellow-400 text-green-900 px-8 py-4 rounded-xl font-semibold shadow-lg hover:bg-yellow-500 transition">
+      <button class="bg-yellow-400 text-green-900 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold shadow-lg hover:bg-yellow-500 transition">
         এখনই যোগ দিন
       </button>
     </div>
   </section>
 
   <!-- Mission -->
-  <section id="mission" class="py-20 px-6 text-center">
-    <h3 class="text-3xl font-bold mb-10 text-green-700">আমাদের উদ্দেশ্য</h3>
-    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        <p class="text-lg">✅ এমপি, চেয়ারম্যান এবং মেম্বারদের বিজয়ী করা</p>
+  <section id="mission" class="py-16 md:py-20 px-6 text-center">
+    <h3 class="text-2xl sm:text-3xl font-bold mb-8 md:mb-10 text-green-700">আমাদের উদ্দেশ্য</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow hover:shadow-lg transition">
+        <p class="text-base sm:text-lg">✅ এমপি, চেয়ারম্যান এবং মেম্বারদের বিজয়ী করা</p>
       </div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        <p class="text-lg">✅ সহযোগীদের প্রশিক্ষণ ও দক্ষতা বৃদ্ধি</p>
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow hover:shadow-lg transition">
+        <p class="text-base sm:text-lg">✅ সহযোগীদের প্রশিক্ষণ ও দক্ষতা বৃদ্ধি</p>
       </div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        <p class="text-lg">✅ জনগণের সাথে ইতিবাচক যোগাযোগ তৈরি</p>
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow hover:shadow-lg transition">
+        <p class="text-base sm:text-lg">✅ জনগণের সাথে ইতিবাচক যোগাযোগ তৈরি</p>
       </div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        <p class="text-lg">✅ নির্বাচনী প্রচারণায় একতা ও স্বচ্ছতা বজায় রাখা</p>
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow hover:shadow-lg transition">
+        <p class="text-base sm:text-lg">✅ নির্বাচনী প্রচারণায় একতা ও স্বচ্ছতা বজায় রাখা</p>
       </div>
     </div>
   </section>
 
   <!-- Programs -->
-  <section id="programs" class="bg-gray-100 py-20 px-6">
-    <h3 class="text-3xl font-bold text-center mb-12 text-green-700">আমাদের কার্যক্রম</h3>
-    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div class="p-8 bg-white rounded-xl shadow hover:shadow-lg transition">
-        <h4 class="text-xl font-bold mb-3 text-green-700">প্রশিক্ষণ কর্মশালা</h4>
-        <p>নেতৃত্ব বিকাশ, প্রচারণা কৌশল ও সামাজিক যোগাযোগ ব্যবহারের উপর প্রশিক্ষণ।</p>
+  <section id="programs" class="bg-gray-100 py-16 md:py-20 px-6">
+    <h3 class="text-2xl sm:text-3xl font-bold text-center mb-8 md:mb-12 text-green-700">আমাদের কার্যক্রম</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+      <div class="p-6 sm:p-8 bg-white rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-green-700">প্রশিক্ষণ কর্মশালা</h4>
+        <p class="text-sm sm:text-base">নেতৃত্ব বিকাশ, প্রচারণা কৌশল ও সামাজিক যোগাযোগ ব্যবহারের উপর প্রশিক্ষণ।</p>
       </div>
-      <div class="p-8 bg-white rounded-xl shadow hover:shadow-lg transition">
-        <h4 class="text-xl font-bold mb-3 text-green-700">মাঠ পর্যায়ের কাজ</h4>
-        <p>গ্রামে গ্রামে গিয়ে মানুষের সাথে সম্পর্ক তৈরি ও সমস্যা চিহ্নিতকরণ।</p>
+      <div class="p-6 sm:p-8 bg-white rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-green-700">মাঠ পর্যায়ের কাজ</h4>
+        <p class="text-sm sm:text-base">গ্রামে গ্রামে গিয়ে মানুষের সাথে সম্পর্ক তৈরি ও সমস্যা চিহ্নিতকরণ।</p>
       </div>
-      <div class="p-8 bg-white rounded-xl shadow hover:shadow-lg transition">
-        <h4 class="text-xl font-bold mb-3 text-green-700">ফান্ডরেইজিং ইভেন্ট</h4>
-        <p>সাংস্কৃতিক অনুষ্ঠান, খেলাধুলা ও স্থানীয় ইভেন্ট আয়োজনের মাধ্যমে ফান্ড সংগ্রহ।</p>
+      <div class="p-6 sm:p-8 bg-white rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-green-700">ফান্ডরেইজিং ইভেন্ট</h4>
+        <p class="text-sm sm:text-base">সাংস্কৃতিক অনুষ্ঠান, খেলাধুলা ও স্থানীয় ইভেন্ট আয়োজনের মাধ্যমে ফান্ড সংগ্রহ।</p>
       </div>
     </div>
   </section>
 
   <!-- Course Fee Section -->
-  <section id="coursefee" class="py-20 px-6 text-center bg-green-50">
-    <h3 class="text-3xl font-bold mb-6 text-green-700">Course Fee প্রদান করুন</h3>
-    <p class="mb-6 text-lg">আপনার প্রতিটি টাকাই আমাদের কোর্স সফল করতে সাহায্য করবে।</p>
-    <div class="bg-white inline-block p-8 rounded-xl shadow-lg">
+  <section id="coursefee" class="py-16 md:py-20 px-6 text-center bg-green-50">
+    <h3 class="text-2xl sm:text-3xl md:text-3xl font-bold mb-4 md:mb-6 text-green-700">Course Fee প্রদান করুন</h3>
+    <p class="mb-4 md:mb-6 text-base sm:text-lg">আপনার প্রতিটি টাকাই আমাদের কোর্স সফল করতে সাহায্য করবে।</p>
+    <div class="bg-white inline-block p-6 sm:p-8 rounded-xl shadow-lg">
       <p class="mb-2"><strong>নম্বর ১:</strong> 01916414841</p>
-      <p class="mb-2"><strong>নম্বর ২:</strong> 01916414841</p>
+      <p class="mb-2"><strong>নম্বর ২:</strong> 01613966482</p>
       <p><strong>ব্যাংক অ্যাকাউন্ট:</strong> 123456789, ঢাকা ব্যাংক</p>
     </div>
   </section>
 
   <!-- Team Section -->
-  <section id="team" class="py-20 px-6 text-center bg-gray-100">
-    <h3 class="text-3xl font-bold mb-12 text-green-700">আমাদের টিম</h3>
-    <div class="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        <img src="images/Shihab.png" alt="Shikder Sahabuddin Sihab" class="w-[120px] h-32 mx-auto rounded-full mb-4 object-cover">
-        <h4 class="text-lg font-semibold">Shikder Sahabuddin Sihab</h4>
+  <section id="team" class="py-16 md:py-20 px-6 text-center bg-gray-100">
+    <h3 class="text-2xl sm:text-3xl md:text-3xl font-bold mb-8 md:mb-12 text-green-700">আমাদের টিম</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-6xl mx-auto">
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="images/Shihab.png" alt="Shikder Sahabuddin Sihab" class="w-24 h-24 sm:w-32 sm:h-32 mx-auto rounded-full mb-3 sm:mb-4 object-cover">
+        <h4 class="text-base sm:text-lg font-semibold">Shikder Sahabuddin Sihab</h4>
       </div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        <img src="images/Enam Vai.jpg" alt="Engr Khandoker Enamul Hoque" class="w-[120px] h-32 mx-auto rounded-full mb-4 object-cover">
-        <h4 class="text-lg font-semibold">Engr. Khandoker Enamul Hoque</h4>
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="images/Enam Vai.jpg" alt="Engr Khandoker Enamul Hoque" class="w-24 h-24 sm:w-32 sm:h-32 mx-auto rounded-full mb-3 sm:mb-4 object-cover">
+        <h4 class="text-base sm:text-lg font-semibold">Engr. Khandoker Enamul Hoque</h4>
       </div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        <img src="images/Enayet.jpg" alt="Engr Anayetur Rahman" class="w-[120px] h-32 mx-auto rounded-full mb-4 object-cover">
-        <h4 class="text-lg font-semibold">Engr. Anayetur Rahman</h4>
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="images/Enayet.jpg" alt="Engr Anayetur Rahman" class="w-24 h-24 sm:w-32 sm:h-32 mx-auto rounded-full mb-3 sm:mb-4 object-cover">
+        <h4 class="text-base sm:text-lg font-semibold">Engr. Anayetur Rahman</h4>
       </div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        <img src="images/HMS.png" alt="Anwar Hms" class="w-[120px] h-32 mx-auto rounded-full mb-4 object-cover">
-        <h4 class="text-lg font-semibold">Anwar H M S</h4>
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="images/HMS.png" alt="Anwar Hms" class="w-24 h-24 sm:w-32 sm:h-32 mx-auto rounded-full mb-3 sm:mb-4 object-cover">
+        <h4 class="text-base sm:text-lg font-semibold">Anwar H M S</h4>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer id="contact" class="bg-green-700 text-white text-center py-10">
-    <p class="mb-2">📍 ঠিকানা: UnionXpert Office, ঢাকা, বাংলাদেশ</p>
-    <p class="mb-2">📞 ফোন: 01552579872 | 01613966482 | ✉️ Email: unionxpert@gmail.com</p>
-    <p class="mt-4 text-sm">© ২০২৫ UnionXpert. সর্বস্বত্ব সংরক্ষিত।</p>
+  <footer id="contact" class="bg-green-700 text-white text-center py-8 md:py-10">
+    <p class="mb-1 sm:mb-2">📍 ঠিকানা: UnionXpert Office, ঢাকা, বাংলাদেশ</p>
+    <p class="mb-1 sm:mb-2">📞 ফোন: 01552579872 | 01613966482 | ✉️ Email: unionxpert@gmail.com</p>
+    <p class="mt-3 text-sm">© ২০২৫ UnionXpert. সর্বস্বত্ব সংরক্ষিত।</p>
   </footer>
 
 </body>
